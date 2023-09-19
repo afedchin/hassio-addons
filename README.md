@@ -1,4 +1,4 @@
-# Home Assistant Add-ons by GauthamVarmaK
+# Home Assistant Add-ons by Anton Fedchin
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -13,7 +13,7 @@ providing extra Home Assistant add-ons for your installation.
 
 The primary goal of this project is to provide you (as a Home Assistant user)
 with additional, high quality, add-ons that allow you to take your automated
-home to the next level, developed by [GauthamVarmaK][gautham].
+home to the next level, developed by [Anton Fedchin][afedchin].
 
 This has been possible thanks to the community add-ons initiative by [Frenck]
 
@@ -115,7 +115,6 @@ SOFTWARE.
 [tvheadend-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [forum]: https://community.home-assistant.io?u=GauthamVarmaK
 [frenck]: https://github.com/frenck
-[gautham]: https://github.com/GauthamVarmaK
 [afedchin]: https://github.com/afedchin
 [issue]: https://github.com/afedchin/hassio-addons/issues
 [license-shield]: https://img.shields.io/github/license/afedchin/hassio-addons.svg
