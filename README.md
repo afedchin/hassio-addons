@@ -113,7 +113,7 @@ SOFTWARE.
 [tvheadend-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [tvheadend-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [tvheadend-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[forum]: https://community.home-assistant.io?u=GauthamVarmaK
+[forum]: https://community.home-assistant.io
 [frenck]: https://github.com/frenck
 [afedchin]: https://github.com/afedchin
 [issue]: https://github.com/afedchin/hassio-addons/issues
