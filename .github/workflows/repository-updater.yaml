@@ -7,7 +7,13 @@ on:
     types: ["update"]
 
 jobs:
-  workflows:
-    uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@main
-    secrets:
-      UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
+  publish:
+    name: Publish add-on update
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚀 Run Repository Updater
+        uses: afedchin/repository-updater@main
+        with:
+          addon: ${{ github.event.client_payload.addon }}
+          repository: ${{ github.repository }}
+          token: ${{ secrets.UPDATER_TOKEN }}
